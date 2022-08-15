@@ -7,6 +7,7 @@ import './App.css';
 import markdown from './markdown.png';
 import randomQuote from './randomQuote.png';
 import robofriends from './robofriends.png';
+import { BsGithub } from 'react-icons/bs';
 
 function App() {
   return (
@@ -31,18 +32,22 @@ function App() {
       <div>
         <div className='first-box' >
           <div id='first-post' className="post1">
-            Random Quotes project was build using React components, CSS and Api's in order to retrive the information that is being displayed. 
-            </div>
+            Random Quotes project was build using React components, CSS and Api's in order to retrive the information that is being displayed.
+          </div>
           <img src={randomQuote} alt='random quote screen-shot' className="first-project" />
           <div className="project-link">
-            <a href='https://itsjotab.github.io/random-quote-machine-fcc/' >Random Quote Project Link</a>
+            <a href='https://itsjotab.github.io/random-quote-machine-fcc/' className="icon" >
+              <BsGithub />
+            </a>
           </div>
         </div>
         <div id='second-project' className='second-box' >
           <div className="post2">MarkDown Porject was build using React components and CSS. </div>
           <img src={markdown} alt='markdown screen-shot' className="second-project" />
           <div className="project-link">
-            <a href='https://itsjotab.github.io/markdown-text-fcc/' >MarkDown Preview Project</a>
+            <a href='https://itsjotab.github.io/markdown-text-fcc/' >
+              <BsGithub />
+            </a>
           </div>
         </div>
         <div id='third-project' className='third-box' >
@@ -50,7 +55,9 @@ function App() {
           </div>
           <img src={robofriends} alt="robofriends screen-shot" className="third-project" />
           <div className="project-link">
-            <a href="https://itsjotab.github.io/robofriends/" >Robofriends Project Link</a>
+            <a href="https://itsjotab.github.io/robofriends/" >
+            <BsGithub />
+            </a>
           </div>
         </div>
       </div>

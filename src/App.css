@@ -52,6 +52,16 @@ img {
   height: 300px;
   width: 500px;
 }
+
+svg {
+  color: black;
+  height: 50px;
+  width: 50px;
+}
 footer {
   background-color: lightgray;
+}
+
+.icon {
+  height: 100px
 }
