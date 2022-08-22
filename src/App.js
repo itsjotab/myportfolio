@@ -20,11 +20,6 @@ function App() {
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/jancy-baez" target="_blank">Linked In</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#first-post">Random Quote</NavDropdown.Item>
-                <NavDropdown.Item href="#second-project">MarkDown-Translator </NavDropdown.Item>
-                <NavDropdown.Item href="#third-project">Robots</NavDropdown.Item>
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -42,7 +37,7 @@ function App() {
           </div>
         </div>
         <div id='second-project' className='second-box' >
-          <div className="post2">MarkDown Porject was build using React components and CSS. </div>
+          <div className="post2">MarkDown Project was build using React components and CSS. </div>
           <img src={markdown} alt='markdown screen-shot' className="second-project" />
           <div className="project-link">
             <a href='https://itsjotab.github.io/markdown-text-fcc/' >
