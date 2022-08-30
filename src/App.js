@@ -4,8 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import robofriends from './images/robofriends.png';
-import firebase from './images/firebase.png'
-import stocks from './images/stocks.png'
+import firebase from './images/firebase.png';
+import stocks from './images/stocks.png';
+import markdown from './images/markdown.png';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
           <img src={stocks} alt="Stocks-portfolio" className="second-project" />
         </a>
       </div>
-    <hr />
+      <hr />
 
       <div id='second-project' className='box' >
         <div className="post"> Robofriends project uses an API for both users and Robo cards. The search bar allows you to seach for specific users.
@@ -41,16 +42,25 @@ function App() {
         </a>
       </div>
       <div>
-            
-      <hr />
 
-      <div id='third-project' className='box' >
-        <div className="post"> Sign-in form using firebase to store user Information, you can create a login or log back in if you have already subscribed.
+        <hr />
+
+        <div id='third-project' className='box' >
+          <div className="post"> Sign-in form using firebase to store user Information, you can create a login or log back in if you have already subscribed.
+          </div>
+          <a href='' >
+            <img src={firebase} alt="Sign-up form" className="second-project" />
+          </a>
         </div>
-        <a href='' >
-          <img src={firebase} alt="Sign-up form" className="second-project" />
-        </a>
-      </div>
+        <hr />
+
+        <div id='fourth-project' className='box' >
+          <div className="post"> This is a React-Markdown project, that converts Markdown text into corresponding HTML code.
+          </div>
+          <a href='' >
+            <img src={markdown} alt="Sign-up form" className="second-project" />
+          </a>
+        </div>
         <hr />
       </div>
       <footer className="footer" >Made by Jancy</footer>
