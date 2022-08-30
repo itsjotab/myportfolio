@@ -25,24 +25,15 @@ function App() {
       </Navbar>
 
       <div id='first-project' className='box' >
-        <div className="post"> Sign-in form using firebase to store user Information, you can create a login or log back in if you have already subscribed.
-        </div>
-        <a href='' >
-          <img src={firebase} alt="Sign-up form" className="second-project" />
-        </a>
-      </div>
-    <hr />
-
-      <div id='second-project' className='box' >
         <div className="post"> Stocks was build using Firebase Hosting, Firebase Functions, Github Actions, and github stories. Uses a bank-end to fetch the stocks data. Material UI was also used for the table displaying the stocks.
         </div>
         <a href='https://stock-alerts-ad47f.web.app/' >
           <img src={stocks} alt="Stocks-portfolio" className="second-project" />
         </a>
       </div>
-            
-      <hr />
-      <div id='third-project' className='box' >
+    <hr />
+
+      <div id='second-project' className='box' >
         <div className="post"> Robofriends project uses an API for both users and Robo cards. The search bar allows you to seach for specific users.
         </div>
         <a href="https://itsjotab.github.io/robofriends/" >
@@ -50,6 +41,16 @@ function App() {
         </a>
       </div>
       <div>
+            
+      <hr />
+
+      <div id='third-project' className='box' >
+        <div className="post"> Sign-in form using firebase to store user Information, you can create a login or log back in if you have already subscribed.
+        </div>
+        <a href='' >
+          <img src={firebase} alt="Sign-up form" className="second-project" />
+        </a>
+      </div>
         <hr />
       </div>
       <footer className="footer" >Made by Jancy</footer>
