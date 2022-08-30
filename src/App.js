@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import robofriends from './images/robofriends.png';
 import firebase from './images/firebase.png'
+import stocks from './images/stocks.png'
 
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/in/jancy-baez" target="_blank">Linked In</Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/in/jancy-baez" target="_blank">Linkedin</Nav.Link>
+              <Nav.Link href="https://www.github.com/itsjotab" target='_blank'>Github</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -25,28 +26,30 @@ function App() {
 
 
 
-      <div id='first-project' className='first-box' >
-        <div className="post1"> Sign-in form using firebase to store user Information, you can create a login or log back in if you have already subscribed.
+      <div id='first-project' className='box' >
+        <div className="post"> Sign-in form using firebase to store user Information, you can create a login or log back in if you have already subscribed.
         </div>
         <a href='' >
           <img src={firebase} alt="Sign-up form" className="second-project" />
         </a>
       </div>
+    <hr />
 
 
 
-      <div id='second-project' className='second-box' >
-        <div className="post2"> Robofriends project was build using React Components, CSS, multiple librarys using NPM, and Api's.
+
+      <div id='second-project' className='box' >
+        <div className="post"> Stocks was build using Firebase Hosting, Firebase Functions, Github Actions, and github stories. Uses a bank-end to fetch the stocks data. Material UI was also used for the table displaying the stocks.
         </div>
         <a href='https://stock-alerts-ad47f.web.app/' >
-          <img alt="Stocks-portfolio" className="second-project" />
+          <img src={stocks} alt="Stocks-portfolio" className="second-project" />
         </a>
       </div>
       
       
       <hr />
-      <div id='third-project' className='third-box' >
-        <div className="post3"> Robofriends project uses an API for both users and Robo cards. The search bar allows you to seach for specific users.
+      <div id='third-project' className='box' >
+        <div className="post"> Robofriends project uses an API for both users and Robo cards. The search bar allows you to seach for specific users.
         </div>
         <a href="https://itsjotab.github.io/robofriends/" >
           <img src={robofriends} alt="robofriends screen-shot" className="third-project" />
