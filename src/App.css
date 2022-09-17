@@ -7,10 +7,21 @@
   overflow: hidden;
   position: fixed;
   width: 100%;
-  height: 45px;
+  height: 50px;
 }
 
-.box{
+@media only screen and (max-width: 650px) {
+  .navbar {
+    overflow: visible;
+    width: 100%;
+    height: 50px;
+  }
+  #basic-navbar-nav {
+    background-color: white;
+  }
+}
+
+.box {
   height: 350px;
   display: flex;
   justify-content: space-evenly;
@@ -25,12 +36,14 @@
 }
 
 img {
-  margin: 50px 0 20px 0;
+
+  margin: 55px 0 20px 0;
   border-radius: 10px;
   height: 300px;
-  width: 500px; 
+  width: 500px;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 675px) {
   img {
     width: 200px;
   }

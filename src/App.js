@@ -28,7 +28,7 @@ function App() {
       <div id='first-project' className='box' >
         <div className="post"> Stocks was build using Firebase Hosting, Firebase Functions, Github Actions, and github stories. Uses a bank-end to fetch the stocks data. Material UI was also used for the table displaying the stocks.
         </div>
-        <a href='https://stock-alerts-ad47f.web.app/' >
+        <a href='https://stock-alerts-ad47f.web.app/' target='_blank' >
           <img src={stocks} alt="Stocks-portfolio" className="second-project" />
         </a>
       </div>
@@ -37,7 +37,7 @@ function App() {
       <div id='second-project' className='box' >
         <div className="post"> Robofriends project uses an API for both users and Robo cards. The search bar allows you to seach for specific users.
         </div>
-        <a href="https://itsjotab.github.io/robofriends/" >
+        <a href="https://itsjotab.github.io/robofriends/" target='_blank' >
           <img src={robofriends} alt="robofriends screen-shot" className="third-project" />
         </a>
       </div>
@@ -48,8 +48,8 @@ function App() {
         <div id='third-project' className='box' >
           <div className="post"> Sign-in form using firebase to store user Information, you can create a login or log back in if you have already subscribed.
           </div>
-          <a href='https://report-card-for-people.web.app/' >
-            <img src={firebase} alt="Sign-up form" className="second-project" />
+          <a href='https://report-card-for-people.web.app/' target='_blank' >
+            <img src={firebase} alt="Signup form using firebase" className="second-project" />
           </a>
         </div>
         <hr />
@@ -57,8 +57,8 @@ function App() {
         <div id='fourth-project' className='box' >
           <div className="post"> This is a React-Markdown project, that converts Markdown text into corresponding HTML code.
           </div>
-          <a href='' >
-            <img src={markdown} alt="Sign-up form" className="second-project" />
+          <a href='https://itsjotab.github.io/markdown-text-fcc/' >
+            <img src={markdown} alt="Markdown page" className="second-project" />
           </a>
         </div>
         <hr />
